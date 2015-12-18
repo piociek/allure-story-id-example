@@ -13,7 +13,7 @@ public class DummyTest {
         assertTrue(true);
     }
 
-    @Stories(value = {"story1", "story3"})
+    @Stories({"story1", "story3"})
     @TestCaseId("124")
     @Test
     public void simpleTestWithStoryWithoutId(){
